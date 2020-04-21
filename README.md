@@ -30,7 +30,7 @@ See [API documentation](https://pdfjs.express/documentation).
 
 ## Enabling full API
 
-PDFNetJS Full is a complete browser side PDF SDK, unlocking viewing, parsing and editing of PDF files. To enable full API, you can modify constructor in `wwwroot/js/webviewerScripts.js`:
+PDF.js Express Full is a complete browser side PDF SDK, unlocking viewing, parsing and editing of PDF files. To enable full API, you can modify constructor in `wwwroot/js/webviewerScripts.js`:
 
 ```diff
 initWebViewer: function () {
