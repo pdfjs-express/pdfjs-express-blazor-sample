@@ -1,0 +1,21 @@
+{
+  "name": "pdfjs-express-blazor-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "dotnet run",
+    "postinstall": "node tools/copy-webviewer-files.js"
+  },
+  "dependencies": {
+    "@pdftron/pdfjs-express": "^6.2.1"
+  },
+  "devDependencies": {
+    "btoa": "^1.2.1",
+    "download": "^7.1.0",
+    "fs-extra": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "PDF.js Express"
+}
