@@ -24,13 +24,13 @@ npm start
 
 Navigate to `https://localhost:5001/webviewer`
 
-## WebViewer APIs
+## PDF.js Express APIs
 
 See [API documentation](https://pdfjs.express/documentation).
 
-## Enabling full API
+## Calling APIs
 
-PDF.js Express Full is a complete browser side PDF SDK, unlocking viewing, parsing and editing of PDF files. To enable full API, you can modify constructor in `wwwroot/js/webviewerScripts.js`:
+PDF.js Express is a complete browser side PDF SDK, unlocking viewing, parsing and editing of PDF files. You can modify the constructor in `wwwroot/js/webviewerScripts.js`:
 
 ```diff
 initWebViewer: function () {
@@ -38,7 +38,6 @@ initWebViewer: function () {
     WebViewer({
         path: 'lib',
         initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf', // replace with your own PDF file
-+        fullAPI: true
     }, viewerElement).then((instance) => {
         // call APIs here
     })
